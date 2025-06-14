@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Roslindale Display Condensed";
+    background: #000;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+h1 {
+    width: 100%;
+    font-size: 42vw;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    color: transparent; /* Makes the fill transparent */
+    -webkit-text-stroke: 3px #767676; /* Adds a white stroke around the text */
+}
+
+h2{
+    color: #f03939;
+    display: block;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 1200vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-404 {
+    position: absolute;
+    top: 0;
+    width: 400vw;
+    height: 100vh;
+    will-change: transform;
+}
+
+.card {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#card-1 {
+    top: 50%;
+    left: 20%;
+    background: rgb(255, 255, 255);
+
+}
+
+#card-5 {
+    top: 40%;
+    left: 30%;
+    background: rgba(249, 245, 245, 0.1);
+
+}
+
+#card-2 {
+    top: 25%;
+    left: 40%;
+    background: rgb(255, 255, 255);
+
+}
+
+#card-6 {
+    top: 35%;
+    left: 50%;
+    background: rgba(249, 245, 245, 0.1);
+
+}
+
+#card-3 {
+    top: 45%;
+    left: 60%;
+    background: rgb(255, 255, 255);
+
+}
+
+#card-7 {
+    top: 30%;
+    left: 70%;
+    background: rgba(249, 245, 245, 0.1);
+
+}
+
+#card-4 {
+    top: 15%;
+    left: 80%;
+    background: rgb(255, 255, 255);
+
+}
+
+#card-8 {
+    top: 20%;
+    left: 90%;
+    background: rgba(249, 245, 245, 0.1);
+
+}
+
+.outro {
+    position: absolute;
+    top: 200vh;
+    width: 100%;
+    height: 100vh;
+}
+
+.outro h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .wrapper-404 {
+        padding-top: 20em;
+    }
+}
